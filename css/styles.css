@@ -175,6 +175,8 @@ img {
   background-color: #c4c4c4;
   padding-top: 200px;
   padding-bottom: 200px;
+  width: 1600px;
+  margin: auto;
 }
 
 .main-title {
@@ -376,7 +378,7 @@ img {
 
 .regular-clients-list {
   display: flex;
-  justify-content: space-between;
+  gap: 30px;
 }
 
 .regular-clients-link {
@@ -413,6 +415,7 @@ img {
 
 .footer-container {
   display: flex;
+  align-items: baseline;
 }
 
 .revers-logo {
@@ -443,7 +446,6 @@ img {
 }
 
 .right-section {
-  margin-top: 12px;
   margin-left: 70px;
   margin-right: auto;
 }
